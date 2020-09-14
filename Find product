@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	long num;
+	cin >>num ;
+
+	long size[num];
+	long long answer=1;
+	for(int i=0;i<num;i++){
+		cin >> size[i];
+		 answer=(answer*size[i])%(1000000000+7);
+		}
+		cout<<""<<answer<<endl;
+
+	return 0;
+}
