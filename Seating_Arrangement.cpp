@@ -17,9 +17,11 @@ For each test case, print the facing seat-number and the seat-type, separated by
 
 CONSTRAINTS
 1<=T<=105
-1<=N<=108*/
+1<=N<=108
+*/
 
-
+	
+/*Solution*/
 #include <iostream>
 
 using namespace std;
